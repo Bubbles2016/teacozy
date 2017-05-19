@@ -10,6 +10,7 @@
 header {
   height: 69px;
   border-bottom: 1px solid seashell;
+  position: fixed;
 }
 .logo {
   /*display: inline-block;*/
@@ -93,11 +94,33 @@ header span {
 .subtitle2 {
   margin-left: 30px;
 }
-.main3 {
+
+#locations {
   height: 500px;
   background: url("../../resources/images/locations-background.jpg") no-repeat center center;
-  background: cover;
+  background-size: cover;
+  margin-left: 100px;
 }
+#locations span {
+  text-align: center;
+  font-size: 33px;
+  margin-top: 70px;
+}
+.locationflex {
+  height: 500px;
+  display: flex;
+  background-color: transparent;
+  justify-content: space-around;
+  /*align-items: center;*/
+}
+.location1, .location2, .location3 {
+  width: 300px;
+  height: 250px;
+  background: black;
+  margin-top: 70px;
+  text-align: center;
+}
+
 footer h2, footer h5 {
   text-align: center;
 }
