@@ -1,10 +1,11 @@
 
-* {
+body {
   font-family: Helvetica;
   font-size: 22px;
   color: seashell;
   opacity: 0.9;
   background-color: black;
+  margin: 0;
 }
 
 header {
@@ -19,7 +20,7 @@ header {
 
 .logo {
   /*display: inline-block;*/
-  padding-left: 10px;
+  padding: 5px 0 0 10px;
   height: 50px;
   vertical-align: top;
   /*border: 1px solid white;*/
@@ -37,16 +38,16 @@ header span {
   padding: 0 18px 0 18px;
   float: right;
 }
-.body {
-  margin: 0;
-}
 
+a {
+  color: seashell;
+}
 .main1 {
   position: relative;
-  top: 69px;
+  top: 62px;
 }
 
- #mission {
+#mission {
    height: 700px;
    width: 1200px;
    background: url("../../resources/images/mission-background.jpg") no-repeat center center;
@@ -64,6 +65,7 @@ header span {
   font-size: 22px;
 }
 .titles {
+  background-color: black;
   width: 100%;
 }
 .titles h2, h4 {
@@ -74,14 +76,14 @@ header span {
   text-align: center;
 }
 .main2 h2 {
-  margin-top: 60px;
+  margin-top: 100px;
 }
 .container {
   margin-left: 200px;
   display: inline-flex;
   flex-wrap: wrap;
   width: 1000px;
-  justify-content: space-around;
+  justify-content: center;
 }
 .image0 {
   width: 300px;
@@ -111,16 +113,16 @@ header span {
   margin-left: 30px;
 }
 
-#locations {
+.locations {
+  /*display: flex;*/
   height: 500px;
   background: url("../../resources/images/locations-background.jpg") no-repeat center center;
   background-size: cover;
   margin-left: 100px;
 }
-#locations span {
+.main3 h2 {
   text-align: center;
-  font-size: 33px;
-  margin-top: 70px;
+  padding-top: 30px;
 }
 .locationflex {
   height: 500px;
@@ -130,15 +132,21 @@ header span {
   /*align-items: center;*/
 }
 .location1, .location2, .location3 {
+  opacity: 1;
   width: 300px;
-  height: 250px;
+  height: 277px;
   background: black;
-  margin-top: 70px;
+  margin-top: 30px;
   text-align: center;
+  /*flex-direction: column;
+  justify-content: center;*/
 }
 
 footer h2, footer h5 {
   text-align: center;
+}
+.info {
+  height: 200px;
 }
 .copyright {
   text-align: left;
