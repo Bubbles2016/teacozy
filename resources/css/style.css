@@ -8,10 +8,15 @@
 }
 
 header {
+  top: 0;
   height: 69px;
   border-bottom: 1px solid seashell;
+  background-color: black;
   position: fixed;
+  width: 100%;
+  z-index: 1;
 }
+
 .logo {
   /*display: inline-block;*/
   padding-left: 10px;
@@ -24,12 +29,23 @@ header nav {
   text-align: right;
   display: inline-block;
   margin-top: 15px;
+
   /*border: 1px solid white;*/
 }
 header span {
   display: inline-block;
   padding: 0 18px 0 18px;
+  float: right;
 }
+.body {
+  margin: 0;
+}
+
+.main1 {
+  position: relative;
+  top: 69px;
+}
+
  #mission {
    height: 700px;
    width: 1200px;
