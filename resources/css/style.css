@@ -71,72 +71,72 @@ a {
 .titles h2, h4 {
   text-align: center;
 }
-.main2 h2, h4 {
+.main2 h2 {
   font-size: 33px;
   text-align: center;
+  margin-top: 140px;
 }
-.main2 h2 {
-  margin-top: 100px;
+
+.main2 h4 {
+  font-size: 22px;
+  text-align: center;
 }
 .container {
   margin-left: 200px;
-  display: inline-flex;
+  display: flex;
   flex-wrap: wrap;
   width: 1000px;
   justify-content: center;
-}
-.image0 {
-  width: 300px;
-  height: 200px;
+  align-items: center;
 }
 
-.image {
-  width: 300px;
-  height: 200px;
-}
-
-.image4 {
-  width: 300px;
-  height: 200px;
-  padding-left: 100px;
-  padding-right: 30px;
-}
-.main2 h3 {
-  width: 300px;
-  padding-left: 32px;
+.container h3 {
+  text-align: center;
   font-size: 22px;
+  font-family: helvetica;
 }
-.subtitle {
-  margin-left: 150px;
+.tea_image {
+  width: 300px;
+  height: 200px;
 }
-.subtitle2 {
-  margin-left: 30px;
+
+ .tea {
+  margin-right: 20px;
+  text-align: center;
+}
+
+.description {
+  text-align: center;
+}
+.description2 {
+  text-align: center;
 }
 
 .locations {
   /*display: flex;*/
   height: 500px;
-  background: url("../../resources/images/locations-background.jpg") no-repeat center center;
+  background: url("../../resources/images/locations-background2.jpg") no-repeat center center;
   background-size: cover;
+  /*background-position: top center;*/
   margin-left: 100px;
+  width: 1200px;
 }
 .main3 h2 {
   text-align: center;
-  padding-top: 30px;
+  padding-top: 55px;
 }
 .locationflex {
   height: 500px;
   display: flex;
   background-color: transparent;
-  justify-content: space-around;
-  /*align-items: center;*/
+  justify-content: center;
 }
 .location1, .location2, .location3 {
   opacity: 1;
   width: 300px;
   height: 277px;
   background: black;
-  margin-top: 30px;
+  margin-right: 40px;
   text-align: center;
   /*flex-direction: column;
   justify-content: center;*/
