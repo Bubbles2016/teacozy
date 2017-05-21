@@ -6,6 +6,7 @@ body {
   opacity: 0.9;
   background-color: black;
   margin: 0;
+  text-align: center;
 }
 
 header {
@@ -19,35 +20,31 @@ header {
 }
 
 .logo {
-  /*display: inline-block;*/
   padding: 5px 0 0 10px;
   height: 50px;
   vertical-align: top;
-  /*border: 1px solid white;*/
 }
 header nav {
   width: 85%;
   text-align: right;
   display: inline-block;
   margin-top: 15px;
-
-  /*border: 1px solid white;*/
 }
+
 header span {
   display: inline-block;
   padding: 0 18px 0 18px;
-  float: right;
 }
 
 a {
   color: seashell;
 }
+
 .main1 {
-  position: relative;
   top: 62px;
 }
 
-#mission {
+.mission {
    height: 700px;
    width: 1200px;
    background: url("../../resources/images/mission-background.jpg") no-repeat center center;
@@ -58,66 +55,63 @@ a {
    align-items: center;
  }
 
-#mission h2 {
+.mission h2 {
    font-size: 33px;
  }
-#mission h4 {
-  font-size: 22px;
-}
+
 .titles {
   background-color: black;
   width: 100%;
 }
-.titles h2, h4 {
-  text-align: center;
-}
+
 .main2 h2 {
   font-size: 33px;
-  text-align: center;
-  margin-top: 140px;
+  margin-top: 100px;
 }
 
-.main2 h4 {
-  font-size: 22px;
-  text-align: center;
-}
 .container {
-  margin-left: 200px;
   display: flex;
   flex-wrap: wrap;
-  width: 1000px;
   justify-content: center;
   align-items: center;
+  margin-left: 200px;
+  width: 1000px;
 }
 
-.container h3 {
-  text-align: center;
-  font-size: 22px;
-  font-family: helvetica;
-}
 .tea_image {
   width: 300px;
   height: 200px;
 }
 
- .tea {
+.tea.gallery {
   margin-right: 20px;
   text-align: center;
 }
 
 .description {
+  font-size: 22px;
   text-align: center;
   margin-top: 10px;
+  font-weight: bold;
 }
 
 .locations {
-  /*display: flex;*/
+  margin-top: 60px;
   height: 500px;
   background: url("../../resources/images/locations-background2.jpg") no-repeat center center;
   background-size: cover;
-  /*background-position: top center;*/
   margin-left: 100px;
   width: 1200px;
+}
+.title {
+  width: 100%;
+  padding-top: 60px;
+}
+
+.title span {
+  padding: 10px;
+  font-size: 33px;
+  font-weight: bold;
 }
 
 .locationflex {
@@ -131,18 +125,18 @@ a {
   width: 300px;
   height: 277px;
   background: black;
-  margin-right: 40px;
-  text-align: center;
-  /*flex-direction: column;
-  justify-content: center;*/
+  margin: 15px 40px 0 0;
 }
 
-footer h2, footer h5 {
-  text-align: center;
-}
 .info {
   height: 200px;
 }
+
+.info h2 {
+  font-size: 33px;
+  font-weight: bold;
+}
+
 .copyright {
   text-align: left;
   margin-left: 20px;
