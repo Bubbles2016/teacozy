@@ -107,9 +107,7 @@ a {
 
 .description {
   text-align: center;
-}
-.description2 {
-  text-align: center;
+  margin-top: 10px;
 }
 
 .locations {
@@ -121,10 +119,7 @@ a {
   margin-left: 100px;
   width: 1200px;
 }
-.main3 h2 {
-  text-align: center;
-  padding-top: 55px;
-}
+
 .locationflex {
   height: 500px;
   display: flex;
